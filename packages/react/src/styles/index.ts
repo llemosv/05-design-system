@@ -1,8 +1,8 @@
 import {
   colors,
+  fonts,
   fontSizes,
   fontWeights,
-  fonts,
   lineHeights,
   radii,
   space,
@@ -21,9 +21,10 @@ export const {
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
-    width: 'space',
     height: 'space',
+    width: 'space',
   },
+
   theme: {
     colors,
     fontSizes,

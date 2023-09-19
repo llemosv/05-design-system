@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/llemosv.png',
     alt: 'User Image',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta
 
 export const Primary: StoryObj<AvatarProps> = {}
